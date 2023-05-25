@@ -1,0 +1,256 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Usayd Jahangiri</title>
+    <link href = "{% static '/css/main.css'  %}" rel="stylesheet" type ="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+
+<body>
+    <ul>
+        <a class="navbar-brand" href="#">
+            <img src="{% static 'images/logo.png' %}" alt="Logo" width="55" height="55"><span style="color: #ffffff;"><span style="font-family: Impact;">Usayd Jahangiri</span></span>
+          </a>          
+        <li style="font-family: Impact;"><a href="{% url 'home' %}">Home</a></li>
+        <li style="font-family: Impact;"><a href="/projects">Projects</a></li>
+        <li style="font-family: Impact;"><a href="/contact">Contact</a></li>
+      </ul>
+    <br>
+    <div class="container" >
+    <div class= "row">
+        <div class="col-md-12">
+            <div data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
+                    <div class="card card-body h-10" id="background-section">
+                        <div class="text-center">
+                            <h1 style="color: #ffffff; font-family: Impact;">SOFTWARE PROJECTS</h1>
+            </div>
+        </div>
+    </div>
+
+        <br>
+        <br>
+        <br>
+        <div class= "row">
+            <div class="col-md-12">
+                <div data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
+                <div class="card card-body h-5" id="background-section" id="profile-wrapper">
+                    <div class="text-center">
+                        <h3 style="color: #ffffff; font-family: Impact;">Personal Portfolio Website</h3>
+                        </div></div></div>
+    <br>
+    <div class="row">
+        <div class="col-md-6" >
+            <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="h-100">
+                <div class="card card-pop h-100">
+            <div class="card-body h-100" id="background-section">
+                <p style="color: #ffffff;"> - Programmed backend of website using Django with previous experience 
+                    in python language
+                </p>
+                <p style="color: #ffffff;"> - Frontend was programmed using HTML and css</p>
+                <p style="color: #ffffff;"> - Website demonstrates knowledge in backend and frontend web developement</p>
+    </div>
+        </div></div></div>
+        <div class="col-md-6" >
+            <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+                <div class="card card-pop h-100">
+            <div class="card card-body" id="background-section">
+                <div class="text-center">
+                    <img src="{% static '/images/website.png' %}" width="200" height="200"></div>
+        </div>
+        </div></div></div></div>
+
+    <br>
+    <br>
+    <br>
+    <div class= "row">
+        <div class="col-md-12">
+            <div data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
+            <div class="card card-body h-5" id="background-section" id="profile-wrapper">
+                <div class="text-center">
+                    <h3 style="color: #ffffff; font-family: Impact;">"Beach Battles" Video Game</h3>
+                    </div></div></div>
+    <br>
+    <div class="row">
+        <div class="col-md-6" >
+            <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="h-100">
+                <div class="card card-pop h-100">
+            <div class="card card-body h-100" id="background-section">
+                <div class="text-center">
+                    <img src="{% static '/images/tank.png' %}" width="300" height="175"></div>
+ 
+    </div>
+        </div></div></div>
+        <div class="col-md-6" >
+            <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="h-100">
+                <div class="card card-pop h-100">
+            <div class="card card-body h-100" id="background-section">
+                <p style="color: #ffffff;"> - Main objective of the game was to shoot enemy targets that randomly spawn
+                    in the given map to gain points
+                </p>
+                <p style="color: #ffffff;"> - Used the pygame library to program the game </p>
+                <p style="color: #ffffff;"> - Video game demonstrates knowledge and experience with procedural Programming
+                using Python language</p>
+                <a href="https://github.com/UJcodez/Beach-Battles" target="_blank">See Code on Github</a>
+        </div>
+        </div></div></div></div>
+       
+    <br>
+    <br>
+    <br>
+    <div class= "row">
+        <div class="col-md-12">
+            <div data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
+            <div class="card card-body h-5" id="background-section" id="profile-wrapper">
+                <div class="text-center">
+                    <h3 style="color: #ffffff; font-family: Impact;">"Astro Wars" Video Game</h3>
+                    </div></div></div>
+    <br>
+    <div class="row">
+        <div class="col-md-6" >
+            <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="h-100">
+                <div class="card card-pop h-100">
+            <div class="card card-body h-100" id="background-section">
+                <p style="color: #ffffff;"> - Two player game where players would shoot at each other to gain points
+                </p>
+                <p style="color: #ffffff;"> - The first player with 10 points wins the game</p>
+                <p style="color: #ffffff;"> - Used the pygame library to program the game </p>
+                <p style="color: #ffffff;"> - Video game demonstrates knowledge and experience with procedural Programming
+                using Python language</p>
+                <a href="https://github.com/UJcodez/Astro-Wars" target="_blank">See Code on Github</a>
+            </div></div></div>
+        </div>
+        <div class="col-md-6" >
+            <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="h-100">
+                <div class="card card-pop h-100">
+            <div class="card card-body h-100" id="background-section">
+                <div class="text-center">
+                    <img src="{% static '/images/spaceship.png' %}" width="200" height="200">
+            </div></div>
+        </div></div></div></div>
+
+    <br>
+    <br>
+    <br>
+    <div class= "row">
+        <div class="col-md-12">
+            <div data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
+            <div class="card card-body h-5" id="background-section" id="profile-wrapper">
+                <div class="text-center">
+                    <h3 style="color: #ffffff; font-family: Impact;">Statistics Canada Diabetes Percentage Calculator</h3>
+                    </div></div></div>
+    <br>
+    <div class="row">
+        <div class="col-md-6" >
+            <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="h-100">
+                <div class="card card-pop h-100">
+            <div class="card card-body h-100" id="background-section">
+                <div class="text-center">
+                    <img src="{% static '/images/graph.png' %}" width="400" height="400"></div>
+            </div></div></div>
+        </div>
+        <div class="col-md-6" >
+            <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="h-100">
+                <div class="card card-pop h-100">
+            <div class="card card-body h-100" id="background-section">
+                <p style="color: #ffffff;"> - Worked in a group of four in order to fulfiill project, demonstrating
+                experience in working in a team environment through collaboration and interpersonal skills</p>
+                <p style="color: #ffffff;"> - Extracted data from a .txt file using the C language and calculated 
+                    yearly, national and provincial percentage averages of diabetes from the given data
+                </p>
+                <p style="color: #ffffff;"> - Graphed the calculated data with the use of GNUPlots </p>
+                <p style="color: #ffffff;"> - Demonstrated experience with C language as well as vital mathematical concepts</p>
+                
+            </div>
+        </div></div></div></div>
+
+    <br>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-md-12" >
+            <div data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
+            <div class="card card-body h-100" id="background-section">
+                <div class="text-center">
+                    <h1 style="color: #ffffff; font-family: Impact;"> HARDWARE PROJECTS </h1>
+            </div>
+        </div></div></div></div>
+     
+    <br>
+    <br>
+    <br>
+    <div class= "row">
+        <div class="col-md-12">
+            <div data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
+            <div class="card card-body h-5" id="background-section" id="profile-wrapper">
+                <div class="text-center">
+                    <h3 style="color: #ffffff; font-family: Impact;">Covid-19 Distance Sensor</h3>
+                    </div></div></div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6" >
+                            <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="h-100">
+                                <div class="card card-pop h-100">
+                            <div class="card card-body h-100" id="background-section">
+                                <p style="color: #ffffff;"> - Designed a schematic diagram of the sensor being built using online software
+                                </p>
+                                <p style="color: #ffffff;"> - Used Tinkercad software to implement design</p>
+                                <p style="color: #ffffff;"> - Distance sensor was programmed using Arduino language </p>
+                                <p style="color: #ffffff;"> - Demonstrated knowledge in both software and hardware systems </p>
+                                <p style="color: #ffffff;"> - Documented progress of project in a video </p>
+                            </div></div></div>
+                        </div>
+                        <div class="col-md-6" >
+                            <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+                                <div class="card card-pop h-100">
+                            <div class="card card-body h-100" id="background-section">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cCClXiONBHY" width="640" height="360"></iframe>
+                                </div></div></div>
+                                
+                            </div>
+                        </div></div>
+
+    <br>
+    <br>
+    <br>
+    <div class= "row">
+        <div class="col-md-12">
+            <div data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
+            <div class="card card-body h-5" id="background-section" id="profile-wrapper">
+                <div class="text-center">
+                    <h3 style="color: #ffffff; font-family: Impact;">Arduino Moving Robot</h3>
+                    </div></div></div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6" >
+                            <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+                                <div class="card card-pop h-100">
+                            <div class="card card-body h-100" id="background-section">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Umkd1xdC1NQ" width="640" height="360"></iframe>
+                                </div></div></div></div>
+                                </div>
+                                
+                                <div class="col-md-6" >
+                                    <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="h-100">
+                                        <div class="card card-pop h-100">
+                                    <div class="card card-body h-100" id="background-section">
+                                        <p style="color: #ffffff;">- Designed and built the circuit used to program moving robot </p>
+                                        <p style="color: #ffffff;">- Utilized a soldering iron to connect circuit's components </p>
+                                        <p style="color: #ffffff;">- Programmed robot's different movement and behaviours using Arduino language </p>
+                                        <p style="color: #ffffff;">- Documented project progress in a video </p>
+                                    </div>
+                                    </div></div></div></div></div>
+
+
+</div>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
